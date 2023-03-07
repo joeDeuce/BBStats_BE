@@ -1,0 +1,24 @@
+﻿CREATE TABLE [dbo].[tStatH]
+(
+	[ID] INT NOT NULL PRIMARY KEY IDENTITY,
+    [PlayerID] INT NOT NULL, 
+    [TournamentID] INT NOT NULL, 
+    [OpponentID] INT NOT NULL, 
+    [Date] DATE NOT NULL, 
+    [Gametime] TIME NOT NULL,
+    [PA] SMALLINT NULL, 
+    [AB] SMALLINT NULL, 
+    [R] SMALLINT NULL, 
+    [H] SMALLINT NULL, 
+    [BB] SMALLINT NULL, 
+    [SO] SMALLINT NULL, 
+    [HBP] SMALLINT NULL, 
+    [SAC] SMALLINT NULL, 
+    [1B] SMALLINT NULL, 
+    [2B] SMALLINT NULL, 
+    [3B] SMALLINT NULL, 
+    [HR] SMALLINT NULL, 
+    [TB] SMALLINT NULL, 
+    [SB] SMALLINT NULL, 
+    [RBI] SMALLINT NULL 
+    )

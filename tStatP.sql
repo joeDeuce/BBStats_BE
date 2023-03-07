@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[tStatP]
+(
+	[ID] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY,
+    [PlayerID] INT NOT NULL, 
+    [TournamentID] INT NOT NULL, 
+    [OpponentID] INT NOT NULL, 
+    [Date] DATE NOT NULL, 
+    [Gametime] TIME NOT NULL,
+    [Pitches] SMALLINT NULL, 
+    [Balls] SMALLINT NULL, 
+    [Strikes] SMALLINT NULL, 
+    [Strikeouts] SMALLINT NULL, 
+    [Balks] SMALLINT NULL, 
+    [HitBatters] SMALLINT NULL, 
+    [EarnedRunsAgainst] SMALLINT NULL, 
+    [UnearnedRunsAgainst] SMALLINT NULL, 
+    [SinglesAllowed] SMALLINT NULL, 
+    [DoublesAllowed] SMALLINT NULL, 
+    [TriplesAllowed] SMALLINT NULL, 
+    [HomerunsAllowed] SMALLINT NULL, 
+    [TotalBasesAllowed] SMALLINT NULL, 
+    [Wins] SMALLINT NULL, 
+    [Saves] SMALLINT NULL, 
+    [BlownSaves] SMALLINT NULL 
+    )

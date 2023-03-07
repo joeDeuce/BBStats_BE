@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[tTeam]
+(
+	[ID] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Name] NCHAR(10) NULL
+)
